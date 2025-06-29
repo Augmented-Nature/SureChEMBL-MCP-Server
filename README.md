@@ -4,6 +4,8 @@
 
 A comprehensive Model Context Protocol (MCP) server for accessing the SureChEMBL chemical patent database. This server provides tools for patent search, chemical discovery, structure analysis, and patent intelligence research.
 
+**Developed by [Augmented Nature](https://augmentednature.ai)**
+
 ## Overview
 
 SureChEMBL is a large-scale chemical patent database that provides access to chemical structures and their associated patent documents. This MCP server enables seamless integration with SureChEMBL's API, offering powerful tools for:
