@@ -1,4 +1,6 @@
-# SureChEMBL MCP Server
+![ChEMBL MCP Server Logo](logo.png)
+
+# Unofficial SureChEMBL MCP Server
 
 A comprehensive Model Context Protocol (MCP) server for accessing the SureChEMBL chemical patent database. This server provides tools for patent search, chemical discovery, structure analysis, and patent intelligence research.
 
@@ -410,6 +412,15 @@ For issues and questions:
 - [PubChem MCP Server](https://github.com/augmented-nature/pubchem-mcp-server) - PubChem chemical database
 - [UniProt MCP Server](https://github.com/augmented-nature/uniprot-mcp-server) - UniProt protein database
 
+## Citation
+If you use this project in your research or publications, please cite it as follows:
+
+```bibtex @misc{surechemblmcp2025, 
+author = {Moudather Chelbi},
+title = {SureChEMBL MCP Server},
+year = {2025},
+howpublished = {https://github.com/Augmented-Nature/SureChEMBL-MCP-Server},
+note = {Accessed: 2025-06-29}
 ---
 
 **SureChEMBL MCP Server** - Empowering chemical patent intelligence through the Model Context Protocol.
