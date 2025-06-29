@@ -1,0 +1,56 @@
+{
+  "name": "surechembl-server",
+  "version": "1.0.0",
+  "description": "A comprehensive Model Context Protocol server for accessing SureChEMBL chemical patent database with tools for patent search, chemical discovery, and structure analysis",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "surechembl-server": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "surechembl",
+    "patents",
+    "chemical-patents",
+    "drug-discovery",
+    "chemical-informatics",
+    "patent-search",
+    "chemical-structures",
+    "pharmaceutical",
+    "medicinal-chemistry",
+    "prior-art",
+    "patent-intelligence",
+    "chemical-biology",
+    "cheminformatics"
+  ],
+  "author": "Augmented Nature",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/augmented-nature/surechembl-mcp-server"
+  },
+  "homepage": "https://github.com/augmented-nature/surechembl-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/augmented-nature/surechembl-mcp-server/issues"
+  }
+}
