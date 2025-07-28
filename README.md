@@ -1,4 +1,4 @@
-![ChEMBL MCP Server Logo](logo.png)
+![SureChEMBL MCP Server Logo](logo.png)
 
 # Unofficial SureChEMBL MCP Server
 
